@@ -1,0 +1,15 @@
+{
+    "run_list": [
+        "recipe[emacs]",
+        "recipe[git]",
+        "recipe[zsh]",
+        "recipe[peco]",
+        "recipe[vim]",
+        "recipe[rbenv]",
+        "recipe[direnv]",
+        "recipe[homeshick]"
+    ],
+    "automatic": {
+        "ipaddress": "192.168.56.102"
+    }
+}
