@@ -3,24 +3,43 @@ DEPENDENCIES
     git: https://github.com/devopsbox/direnv-cookbook
     revision: 638e932ba8c441bec8599222ca848f3c07aea75c
   emacs
+  gcc
+    git: git://github.com/bflad/chef-gcc.git
+    revision: 79e94f0b21c9a4e03506791101f397844c66b6ad
   git (~> 4.2.2)
   homeshick
     git: https://github.com/chefhippie/homeshick
     revision: 5b5c88b8e387bb758fa8036f07f262d512abd9ee
+  libffi-dev
+    git: git://github.com/zchee/libffi-dev-cookbook.git
+    revision: d4f8a6f3102659eb0a6c824ab050f776a1a4da16
+  libyaml (~> 0.1.1)
+  ncurses (~> 0.0.3)
+  openssl (~> 4.2.0)
   peco
     git: https://kurusugawa.jp/stash/scm/chef/peco.git
     revision: bcc34c82757271528377b41a02bd8ae9e1d7f9f3
-  rbenv (~> 1.7.1)
+  rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  readline (~> 0.0.5)
+  ruby_build
   vim (~> 1.1.2)
+  zlib (~> 2.0.0)
   zsh (~> 1.0.1)
 
 GRAPH
   apt (2.7.0)
   build-essential (2.2.3)
+  chef-sugar (3.1.1)
   chef_handler (1.2.0)
   direnv (0.1.0)
   dmg (2.2.2)
   emacs (0.10.0)
+  gcc (0.2.0)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    yum (>= 3.0.0)
   git (4.2.2)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
@@ -28,17 +47,25 @@ GRAPH
     yum-epel (>= 0.0.0)
   homeshick (0.0.1)
     git (>= 0.0.0)
-  ohai (2.0.1)
-  peco (0.1.2)
-  rbenv (1.7.1)
+  java (1.31.0)
+  libffi-dev (1.0.0)
+  libyaml (0.1.1)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
-    git (>= 0.0.0)
-    ohai (>= 1.1)
+  ncurses (0.0.3)
+  openssl (4.2.0)
+    chef-sugar (>= 0.0.0)
+  peco (0.1.2)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  readline (0.0.5)
+  ruby_build (0.8.0)
   vim (1.1.2)
   windows (1.37.0)
     chef_handler (>= 0.0.0)
   yum (3.6.1)
   yum-epel (0.6.2)
     yum (~> 3.2)
+  zlib (2.0.0)
   zsh (1.0.1)

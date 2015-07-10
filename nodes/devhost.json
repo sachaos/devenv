@@ -1,15 +1,32 @@
 {
     "run_list": [
+        "recipe[gcc]",
+        "recipe[openssl]",
+        "recipe[libyaml]",
+        "recipe[readline]",
+        "recipe[libffi-dev]",
+        "recipe[zlib]",
+        "recipe[ncurses]",
+        "recipe[zsh]",
         "recipe[emacs]",
         "recipe[git]",
-        "recipe[zsh]",
         "recipe[peco]",
         "recipe[vim]",
-        "recipe[rbenv]",
+        "recipe[ruby_build]",
+        "recipe[rbenv::user]",
         "recipe[direnv]",
         "recipe[homeshick]"
     ],
     "automatic": {
         "ipaddress": "192.168.56.102"
+    },
+    "rbenv": {
+        "user_installs": [
+            {
+                "user": "sachaos",
+                "rubies": ["2.2.1"],
+                "global": "2.2.1"
+            }
+        ]
     }
 }

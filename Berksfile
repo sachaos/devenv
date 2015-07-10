@@ -1,10 +1,18 @@
 source "https://api.berkshelf.com"
 
+cookbook 'gcc', github: "bflad/chef-gcc"
+cookbook 'openssl', '~> 4.2.0'
+cookbook 'libyaml', '~> 0.1.1'
+cookbook 'readline', '~> 0.0.5'
+cookbook 'zlib', '~> 2.0.0'
+cookbook 'ncurses', '~> 0.0.3'
 cookbook 'zsh', '~> 1.0.1'
-cookbook 'emacs', '~> 0.10.0'
+cookbook 'emacs', github: "kakakikikeke/cookbooks-emacs"
 cookbook 'git', '~> 4.2.2'
-cookbook 'peco', git: 'https://kurusugawa.jp/stash/scm/chef/peco.git'
+cookbook 'peco', git: "https://kurusugawa.jp/stash/scm/chef/peco.git"
+cookbook 'libffi-dev', github: "zchee/libffi-dev-cookbook"
 cookbook 'vim', '~> 1.1.2'
-cookbook 'rbenv', '~> 1.7.1'
-cookbook 'direnv', git: 'https://github.com/devopsbox/direnv-cookbook'
-cookbook 'homeshick', git: 'https://github.com/chefhippie/homeshick'
+cookbook 'ruby_build'
+cookbook 'rbenv', github: "fnichol/chef-rbenv"
+cookbook 'direnv', github: "devopsbox/direnv-cookbook"
+cookbook 'homeshick', github: "chefhippie/homeshick"
