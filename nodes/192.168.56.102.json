@@ -1,0 +1,8 @@
+{
+    "run_list": [
+        "recipe[vim]"
+    ],
+    "automatic": {
+        "ipaddress": "192.168.56.102"
+    }
+}
