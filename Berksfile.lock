@@ -1,0 +1,5 @@
+DEPENDENCIES
+  emacs
+
+GRAPH
+  emacs (0.10.0)
