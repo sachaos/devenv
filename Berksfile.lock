@@ -7,9 +7,7 @@ DEPENDENCIES
     git: git://github.com/bflad/chef-gcc.git
     revision: 79e94f0b21c9a4e03506791101f397844c66b6ad
   git (~> 4.2.2)
-  homeshick
-    git: https://github.com/chefhippie/homeshick
-    revision: 5b5c88b8e387bb758fa8036f07f262d512abd9ee
+  homesick (~> 0.4.0)
   libffi-dev
     git: git://github.com/zchee/libffi-dev-cookbook.git
     revision: d4f8a6f3102659eb0a6c824ab050f776a1a4da16
@@ -24,6 +22,7 @@ DEPENDENCIES
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   readline (~> 0.0.5)
   ruby_build
+  tmux (~> 1.4.0)
   vim (~> 1.1.2)
   zlib (~> 2.0.0)
   zsh (~> 1.0.1)
@@ -45,7 +44,7 @@ GRAPH
     dmg (>= 0.0.0)
     windows (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  homeshick (0.0.1)
+  homesick (0.4.0)
     git (>= 0.0.0)
   java (1.31.0)
   libffi-dev (1.0.0)
@@ -61,6 +60,7 @@ GRAPH
     ruby_build (>= 0.0.0)
   readline (0.0.5)
   ruby_build (0.8.0)
+  tmux (1.4.0)
   vim (1.1.2)
   windows (1.37.0)
     chef_handler (>= 0.0.0)

@@ -15,7 +15,7 @@
         "recipe[ruby_build]",
         "recipe[rbenv::user]",
         "recipe[direnv]",
-        "recipe[homeshick]"
+        "recipe[homesick]"
     ],
     "automatic": {
         "ipaddress": "192.168.56.102"

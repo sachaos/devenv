@@ -15,4 +15,5 @@ cookbook 'vim', '~> 1.1.2'
 cookbook 'ruby_build'
 cookbook 'rbenv', github: "fnichol/chef-rbenv"
 cookbook 'direnv', github: "devopsbox/direnv-cookbook"
-cookbook 'homeshick', github: "chefhippie/homeshick"
+cookbook 'homesick', '~> 0.4.0'
+cookbook 'tmux', '~> 1.4.0'
