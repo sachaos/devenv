@@ -7,7 +7,6 @@ cookbook 'readline', '~> 0.0.5'
 cookbook 'zlib', '~> 2.0.0'
 cookbook 'ncurses', '~> 0.0.3'
 cookbook 'zsh', '~> 1.0.1'
-cookbook 'emacs', github: "kakakikikeke/cookbooks-emacs"
 cookbook 'git', '~> 4.2.2'
 cookbook 'peco', git: "https://kurusugawa.jp/stash/scm/chef/peco.git"
 cookbook 'libffi-dev', github: "zchee/libffi-dev-cookbook"

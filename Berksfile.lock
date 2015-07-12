@@ -1,8 +1,7 @@
 DEPENDENCIES
   direnv
-    git: https://github.com/devopsbox/direnv-cookbook
+    git: git://github.com/devopsbox/direnv-cookbook.git
     revision: 638e932ba8c441bec8599222ca848f3c07aea75c
-  emacs
   gcc
     git: git://github.com/bflad/chef-gcc.git
     revision: 79e94f0b21c9a4e03506791101f397844c66b6ad
@@ -34,7 +33,6 @@ GRAPH
   chef_handler (1.2.0)
   direnv (0.1.0)
   dmg (2.2.2)
-  emacs (0.10.0)
   gcc (0.2.0)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
